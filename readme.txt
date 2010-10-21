@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: maarten.decat
 Donate link: http://maartendecat.be
-Tags: chuck norris jokes
+Tags: chuck norris, jokes, widget, sidebar, fun
 Requires at least: 2.8
 Tested up to: 3.0.1
 Stable tag: 4.3
