@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Chuck Norris Jokes Widget
  * Plugin URI: http://maartendecat.be/chuck-norris-jokes-wordpress-plugin/
- * Description: A widget that shows Chuck Norris jokes on your blog. 
- * Version: 0.1
+ * Description: A widget that shows Chuck Norris jokes on your blog, possibly starring yourself.
+ * Version: 0.1.5
  * Author: Maarten Decat
  * Author URI: http://maartendecat.be
  * License: GPL2
@@ -68,7 +68,7 @@ class ChuckNorrisWidget extends WP_Widget {
 
 		$hardCodedQuote = "In the Bible, Jesus turned water into wine. But then $firstName $lastName turned that wine into beer.";
 		
-		$file = fopen ('http://chuck.maartendecat.be/api.php?f=rand&fn=' . $firstName . '&ln=' . $lastName, "r");
+		$file = fopen ('http://icndb.com/api.php?f=rand&fn=' . $firstName . '&ln=' . $lastName, "r");
 		if (!$file) {
 			echo($hardCodedQuote);
 		}
