@@ -68,7 +68,7 @@ class ChuckNorrisWidget extends WP_Widget {
 
 		$hardCodedQuote = "In the Bible, Jesus turned water into wine. But then $firstName $lastName turned that wine into beer.";
 		
-		$file = fopen ('http://chuck.maartendecat.be/api.php?f=rand&fn=' . $firstName . '&ln=' . $lastName, "r");
+		$file = fopen ('http://icndb.com/api.php?f=rand&fn=' . $firstName . '&ln=' . $lastName, "r");
 		if (!$file) {
 			echo($hardCodedQuote);
 		}
