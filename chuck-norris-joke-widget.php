@@ -27,8 +27,7 @@ add_action( 'widgets_init', 'load_ChuckNorrisJokeWidget' );
 
 function load_ChuckNorrisJokeWidget() {
 	register_widget( 'ChuckNorrisJokeWidget' );
-	wp_enqueue_script('jquery');
-	wp_register_script('chuck-norris-jquery', plugins_url('/chuck-norris-joke-widget/jquery.icndb.min.js'));
+	wp_register_script('chuck-norris-jquery', plugins_url('/chuck-norris-joke-widget/jquery.icndb.min.js'), array('jquery'));
 	wp_enqueue_script('chuck-norris-jquery');
 }
 
