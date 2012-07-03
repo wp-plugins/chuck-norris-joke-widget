@@ -3,7 +3,7 @@
  * Plugin Name: Chuck Norris Jokes Widget
  * Plugin URI: http://maartendecat.be/chuck-norris-jokes-wordpress-plugin/
  * Description: A widget that shows Chuck Norris jokes on your blog. For personalized Chuck Norris jokes starring yourself, please refer to the Personalized Chuck Norris Jokes Widget.
- * Version: 0.7
+ * Version: 0.7.1
  * Author: Maarten Decat
  * Author URI: http://maartendecat.be
  * License: GPL2
