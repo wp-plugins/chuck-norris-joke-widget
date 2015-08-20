@@ -3,7 +3,7 @@ Contributors: maarten.decat
 Donate link: http://maartendecat.be
 Tags: chuck norris, jokes, widget, sidebar, fun
 Requires at least: 2.8
-Tested up to: 3.4
+Tested up to: 4.3
 Stable tag: 0.7.1
 
 Shows a random Chuck Norris joke on your blog. For personalized Chuck Norris jokes starring yourself, please refer to the Personalized Chuck Norris Jokes Widget.
